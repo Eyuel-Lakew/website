@@ -29,6 +29,16 @@ h3 {
   z-index: 1;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+@media screen and (max-width:576px){
+  .footer{
+    display:flex !important;
+    flex-direction: column !important;
+    justify-contents:center !important;
+  }
+  .secondP{
+    width:100% !important;
+  }
+}
 @media screen and (min-width:576px){
   .secondP{
     width:100% !important;
